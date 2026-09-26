@@ -1,25 +1,27 @@
 # Gradle
 *.iml
-.gradle
+.gradle/
 /local.properties
-gradle-wrapper.jar
-/build
+**/build/
 
 # Android Studio
-/.idea
+.idea/
 .DS_Store
 /captures
-.externalNativeBuild
-.cxx
+.externalNativeBuild/
+.cxx/
 
-# Keystore
+# Keystore & signing
 *.jks
 *.keystore
+key.properties
 
-# Release output
-/app/release
-/app/build
+# Build output
+*.apk
+*.aab
+*.ap_
+*.dex
 
-# Test
-/app/src/test
-/app/src/androidTest
+# Logs & crash reports
+*.log
+*.hprof
